@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from "./Head";
-import "./Header.css";
+import "./header.css";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -12,7 +12,7 @@ function Header() {
         <nav className='flexSB'>
           <ul
             className={click ? "mobile-nav" : "flexSB"}
-            onClick={() => (setClick = false)}
+            onClick={() => setClick(false)}
           >
             <li>
               <Link to='/'>Home</Link>

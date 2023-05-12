@@ -1,17 +1,16 @@
 import "./App.css";
-import Header from "./components/heading/Header";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Home from "./components/home/Home";
+import Header from "./components/common/heading/Header.jsx";
 
 function App() {
   return (
     <>
       <Router>
         <Header />
-        {/* <Switch>
-          <Route path='/about'>
-            <About />
-          </Route>
-        </Switch> */}
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
       </Router>
     </>
   );
