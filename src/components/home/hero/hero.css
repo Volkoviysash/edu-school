@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 768px) {
   .margin {
-    height: 40vh;
+    height: 0vh;
   }
   .hero {
     background-position: right;
