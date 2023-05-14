@@ -39,6 +39,9 @@
   cursor: pointer;
   box-shadow: 0 5px 25px -2px rgb(0 0 0 /6%);
 }
+.aboutHome .item:hover p {
+  color: #fff;
+}
 .awrapper {
   background-image: url("../../../public/images/awrapper.webp");
   background-repeat: no-repeat;
@@ -61,9 +64,6 @@
   font-weight: 500;
 }
 @media screen and (max-width: 768px) {
-  .aboutHome {
-    margin-top: 80%;
-  }
   .aboutHome .container {
     flex-direction: column-reverse;
   }
