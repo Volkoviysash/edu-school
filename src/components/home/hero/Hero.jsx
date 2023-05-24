@@ -8,15 +8,16 @@ function Hero() {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
+            {/* <h2 className='main-welcome'>WELCOME TO ACADEMIA</h2>
+            <h1 className='main-title'>Best Online Education</h1> */}
             <Title
               subtitle='WELCOME TO ACADEMIA'
               title='Best Online Education'
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
-              totam aut adipisci, eum sed nihil minus assumenda aliquam soluta,
-              ipsa, enim saepe voluptate! Itaque id corrupti culpa inventore
-              commodi fugiat.
+              Unlock Your Potential, Anywhere, Anytime. Experience our
+              transformative online education school that empowers learners to
+              excel in a digital world.
             </p>
             <div className='button'>
               <button className='primary-btn'>

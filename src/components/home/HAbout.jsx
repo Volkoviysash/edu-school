@@ -2,6 +2,7 @@ import React from "react";
 import Title from "../common/title/Title";
 import { coursesCard } from "../../dummydata";
 import OnlineCourses from "../allcourses/OnlineCourses";
+import AuthorInfo from "../allcourses/AuthorInfo";
 
 const HAbout = () => {
   return (
@@ -32,21 +33,6 @@ const HAbout = () => {
                           <i className='fa fa-star'></i>
                           <i className='fa fa-star'></i>
                           <label htmlFor=''>(5.0)</label>
-                        </div>
-                        <div className='details'>
-                          {val.courTeacher.map((details) => (
-                            <>
-                              <div className='box'>
-                                <div className='dimg'>
-                                  <img src={details.dcover} alt='' />
-                                </div>
-                                <div className='para'>
-                                  <h4>{details.name}</h4>
-                                </div>
-                              </div>
-                              <span>{details.totalTime}</span>
-                            </>
-                          ))}
                         </div>
                       </div>
                     </div>

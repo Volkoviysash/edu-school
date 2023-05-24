@@ -9,7 +9,7 @@ function PriceCard() {
         <div className='items shadow'>
           <h4>{val.name}</h4>
           <h1>
-            <span>$</span>
+            <span className='dollar'>$</span>
             {val.price}
           </h1>
           <p>{val.desc}</p>

@@ -1,16 +1,19 @@
 .coursesCard {
   padding: 50px 0;
 }
+
 .coursesCard .items {
   background-color: #fff;
   padding: 30px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .coursesCard .img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #1eb2a6;
+  background-color: #b259ad;
   padding: 15px;
 }
 .coursesCard img {
@@ -23,13 +26,13 @@
   text-align: left;
 }
 .coursesCard .text h1 {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: bold;
   line-height: 45px;
 }
 .coursesCard .rate {
   margin: 20px 0;
-  color: #1eb2a6;
+  color: #b259ad;
 }
 .coursesCard .rate i {
   font-size: 13px;
@@ -49,18 +52,18 @@
   color: grey;
 }
 .coursesCard .details span {
-  color: #1eb2a6;
+  color: #b259ad;
   font-weight: 500;
   font-size: 14px;
 }
 .coursesCard .price {
-  margin: 30px 0;
+  margin: auto 0 10px 0;
   background-color: #f8f8f8;
   padding: 10px;
 }
 .coursesCard h3 {
   font-weight: 500;
-  color: #1eb2a6;
+  color: #b259ad;
 }
 .online {
   text-align: center;
@@ -69,9 +72,10 @@
   box-shadow: 0 5px 25px -2px rgba(0 0 0 /6%);
   background-color: #fff;
   padding: 30px 20px;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .online .img {
+  filter: hue-rotate(290deg);
   width: 80px;
   height: 80px;
   margin: auto;
@@ -93,14 +97,14 @@
   padding: 5px 20px;
   font-weight: 500;
   font-size: 15px;
-  color: #1eb2a6;
+  color: #b259ad;
   border-radius: 5px;
 }
 .online .box .show {
   opacity: 0;
 }
 .online .box:hover {
-  background-color: #1eb2a6;
+  background-color: #b259ad;
   border-radius: 5px;
   cursor: pointer;
 }

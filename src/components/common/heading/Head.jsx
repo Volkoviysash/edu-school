@@ -7,7 +7,6 @@ export const Head = () => {
         <div className='container flexSB'>
           <div className='logo'>
             <h1>EDU ACADEMY</h1>
-            <span>ONLINE EDUCATION</span>
           </div>
           <div className='social'>
             <i className='fab fa-facebook icon'></i>

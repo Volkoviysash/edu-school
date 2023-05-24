@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
   padding: 0;
@@ -7,12 +7,13 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   background-color: #f8f8f8;
+  font-size: medium;
 }
 
 .container {
-  max-width: 85%;
+  max-width: 75%;
   margin: auto;
 }
 
@@ -28,17 +29,17 @@ body {
   border-radius: 50%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.3);
-  color: #1eb2a6;
-  transition: 0.5s;
+  color: #b259ad;
+  transition: 0.2s;
 }
 
 .icon:hover {
   cursor: pointer;
-  background-color: #1eb2a6;
+  background-color: #b259ad;
   color: #fff;
 }
 
-button {
+.button {
   border: none;
 }
 
@@ -47,16 +48,17 @@ button {
 }
 
 button {
+  cursor: pointer;
   padding: 17px 30px;
   background-color: #fff;
-  color: #1eb2a6;
+  color: #b259ad;
   font-weight: 600;
   border: none;
   margin: 30px 10px 0 0;
   border-radius: 3px;
-  cursor: pointer;
-  box-shadow: 0 24px 36px -11px rgba(0 0 0 /9%);
-  transition: 0.5s;
+  font-size: medium;
+  box-shadow: 0px 0px 2px rgb(143, 112, 136);
+  transition: 0.2s;
 }
 
 button i {
@@ -68,8 +70,9 @@ button:hover {
 }
 
 .primary-btn {
-  background-color: #1eb2a6;
+  background-color: #b259ad;
   color: #fff;
+  font-size: medium;
 }
 
 #heading {
@@ -80,11 +83,11 @@ button:hover {
 #heading h3 {
   font-weight: 600;
   letter-spacing: 1px;
-  color: #1eb2a6;
   text-transform: uppercase;
 }
 
 #heading h1 {
+  color: black;
   font-size: 45px;
   margin: 20px 0;
   text-transform: capitalize;
@@ -137,12 +140,12 @@ p {
 .outline-btn {
   margin: 0;
   box-shadow: none;
-  border: 2px solid #1eb2a6;
+  border: 2px solid #b259ad;
   width: 100%;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .outline-btn:hover {
-  background-color: #1eb2a6;
+  background-color: #b259ad;
   color: #fff;
 }
 .grid3 {

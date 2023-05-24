@@ -5,12 +5,12 @@
 .price h1 {
   font-size: 50px;
   margin: 20px 0;
-  color: #1eb2a6;
+  color: #b259ad;
 }
 .price h1 span {
-  font-size: 20px;
+  font-size: 50px;
   margin-right: 5px;
-  color: #000;
+  color: #b259ad;
 }
 .price p {
   color: grey;
@@ -43,6 +43,6 @@
   transition: 0.2s;
 }
 .faq .accordion:hover {
-  background-color: #1eb2a6;
+  background-color: #b259ad;
   color: #fff;
 }

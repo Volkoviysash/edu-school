@@ -20,15 +20,15 @@ const Contact = () => {
             <div className='items grid2'>
               <div className='box'>
                 <h4>ADDRESS: </h4>
-                <p>198 west 21st street, suite 761 New Yourk NY 10061</p>
+                <p>str. Stefan Cel Mare si Sfant 29</p>
               </div>
               <div className='box'>
                 <h4>Email:</h4>
-                <p>info@gmail.com</p>
+                <p>onlinecourese@mail.md</p>
               </div>
               <div className='box'>
                 <h4>PHONE:</h4>
-                <p>+123 456 789 01</p>
+                <p>+373 690 123 45</p>
               </div>
             </div>
             <form action=''>
@@ -37,9 +37,11 @@ const Contact = () => {
                 <input type='email' placeholder='Email' />
               </div>
               <input type='email' placeholder='Subject' />
-              <textarea cols='30' rows='10'>
-                Create a message here...
-              </textarea>
+              <textarea
+                cols='30'
+                rows='10'
+                placeholder='Create a message here...'
+              ></textarea>
               <button className='primary-btn'>SEND MESSAGE</button>
             </form>
             <h3>Follow us here</h3>

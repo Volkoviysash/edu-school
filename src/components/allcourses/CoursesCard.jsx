@@ -1,5 +1,6 @@
 import React from "react";
 import { coursesCard } from "../../dummydata";
+import AuthorInfo from "./AuthorInfo";
 import "./courses.css";
 
 function CoursesCard() {
@@ -28,17 +29,7 @@ function CoursesCard() {
                     </div>
                     <div className='details'>
                       {val.courTeacher.map((details) => (
-                        <>
-                          <div className='box'>
-                            <div className='dimg'>
-                              <img src={details.dcover} alt='' />
-                            </div>
-                            <div className='para'>
-                              <h4>{details.name}</h4>
-                            </div>
-                          </div>
-                          <span>{details.totalTime}</span>
-                        </>
+                        <AuthorInfo details={details} />
                       ))}
                     </div>
                   </div>

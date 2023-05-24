@@ -1,0 +1,46 @@
+.newletter {
+  background-color: #b259ad;
+  padding: 50px 0;
+  color: #fff;
+  margin-top: 30px;
+}
+.newletter .right,
+.newletter .left {
+  padding-right: 50px;
+}
+.newletter h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.newletter .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newletter input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  height: 30px;
+}
+.newletter i {
+  padding: 12px;
+  color: #b259ad;
+  background-color: #fff;
+}
+
+.legal {
+  text-align: center;
+  padding: 10px 0;
+  color: grey;
+  background-color: #e9e9e9;
+}
+.legal p {
+  font-size: 15px;
+}
+.legal i {
+  color: #b259ad;
+}

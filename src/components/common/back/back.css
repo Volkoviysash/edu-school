@@ -1,0 +1,12 @@
+.back h2,
+.back h1 {
+  color: black;
+}
+
+.text-box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

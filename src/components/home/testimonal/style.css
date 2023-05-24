@@ -1,6 +1,6 @@
 .testimonal .items {
   padding: 30px;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .testimonal .img {
@@ -9,13 +9,14 @@
 .testimonal img {
   width: 100px;
   height: 100px;
+
   border-radius: 50%;
 }
 .testimonal i {
   position: absolute;
   bottom: 0;
   left: 60px;
-  background-color: #1eb2a6;
+  background-color: #b259ad;
   color: #fff;
 }
 .testimonal .name {
@@ -26,15 +27,15 @@
   margin-bottom: 5px;
 }
 .testimonal .name span {
-  color: #1eb2a6;
+  color: #b259ad;
 }
 .testimonal p {
   margin-top: 20px;
   color: grey;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .testimonal .items:hover {
-  background-color: #1eb2a6;
+  background-color: #b259ad;
   color: #fff;
   cursor: pointer;
 }
@@ -44,5 +45,5 @@
 }
 .testimonal .items:hover i {
   background-color: #fff;
-  color: #1eb2a6;
+  color: #b259ad;
 }
