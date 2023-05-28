@@ -9,7 +9,7 @@
 .testimonal img {
   width: 100px;
   height: 100px;
-
+  object-fit: contain;
   border-radius: 50%;
 }
 .testimonal i {
@@ -46,4 +46,39 @@
 .testimonal .items:hover i {
   background-color: #fff;
   color: #b259ad;
+}
+
+.main-rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.main-rate .rating-title {
+  font-size: 20px;
+}
+
+.main-rate i {
+  font-size: 30px;
+  margin-right: 5px;
+  color: #b259ad;
+}
+
+.main-rate .fa-thumbs-up {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: rgb(115, 186, 115);
+}
+
+@media screen and (max-width: 768px) {
+  .main-rate {
+    display: none;
+  }
+
+  .main-rate .fa-thumbs-up {
+    display: none;
+  }
 }

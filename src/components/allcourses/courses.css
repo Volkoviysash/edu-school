@@ -8,6 +8,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  height: 400px;
 }
 .coursesCard .img {
   width: 80px;
@@ -58,8 +59,8 @@
 }
 .coursesCard .price {
   margin: auto 0 10px 0;
-  background-color: #f8f8f8;
   padding: 10px;
+  width: 100%;
 }
 .coursesCard h3 {
   font-weight: 500;

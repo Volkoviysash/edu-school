@@ -290,23 +290,23 @@ export const team = [
 export const price = [
   {
     name: "BASIC PLAN",
-    price: "49K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    price: "1K",
+    desc: "Ignite your learning journey with our affordable Basic Plan, designed to provide essential online education resources for curious minds.",
   },
   {
     name: "BEGINNER PLAN",
-    price: "79K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    price: "3.5K",
+    desc: "Unleash your potential with our Beginner Plan, where knowledge meets guidance, empowering you to confidently embark on your educational path.",
   },
   {
     name: "PREMIUM PLAN",
-    price: "109k",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    price: "4.9k",
+    desc: "Elevate your learning experience with our Premium Plan, offering exclusive access to expert instructors, comprehensive resources, and personalized support.",
   },
   {
     name: "ULTIMATE PLAN",
-    price: "149K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    price: "9.9k",
+    desc: "Unlock the full spectrum of possibilities with our Ultimate Plan, a powerhouse of unlimited learning opportunities, tailored to fuel your intellectual growth and success.",
   },
 ];
 export const faq = [

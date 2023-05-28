@@ -6,14 +6,14 @@ function PriceCard() {
   return (
     <>
       {price.map((val) => (
-        <div className='items shadow'>
+        <div className='items shadow bottom-parrent'>
           <h4>{val.name}</h4>
           <h1>
             <span className='dollar'>$</span>
             {val.price}
           </h1>
           <p>{val.desc}</p>
-          <button className='outline-btn'>GET STARTED</button>
+          <button className='outline-btn bottom'>GET STARTED</button>
         </div>
       ))}
     </>

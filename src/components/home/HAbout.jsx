@@ -13,11 +13,11 @@ const HAbout = () => {
             subtitle='our courses'
             title='explore our popular online courses'
           />
-          <div className='coursesCard'>
+          <div className='coursesCard '>
             <div className='grid2'>
               {coursesCard.slice(0, 3).map((val) => {
                 return (
-                  <div className='items'>
+                  <div className='items bottom-parrent'>
                     <div className='content flex'>
                       <div className='left'>
                         <div className='img'>
@@ -26,17 +26,21 @@ const HAbout = () => {
                       </div>
                       <div className='text'>
                         <h1>{val.coursesName}</h1>
-                        <div className='rate'>
-                          <i className='fa fa-star'></i>
-                          <i className='fa fa-star'></i>
-                          <i className='fa fa-star'></i>
-                          <i className='fa fa-star'></i>
-                          <i className='fa fa-star'></i>
-                          <label htmlFor=''>(5.0)</label>
-                        </div>
                       </div>
                     </div>
-                    <div className='price'>
+                    <div className='main-rate'>
+                      <i class='fa fa-thumbs-up' aria-hidden='true'></i>
+                      <h3 className='rating-title'>Current rating:</h3>
+                      <div className='icons'>
+                        <i className='fa fa-star'></i>
+                        <i className='fa fa-star'></i>
+                        <i className='fa fa-star'></i>
+                        <i className='fa fa-star'></i>
+                        <i className='fa fa-star'></i>
+                        <label htmlFor=''>(5.0)</label>
+                      </div>
+                    </div>
+                    <div className='price bottom'>
                       <h3>
                         {val.priceAll} / {val.pricePer}
                       </h3>
